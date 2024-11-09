@@ -75,9 +75,7 @@ def main():
     data = ocr.extract_data()
     if data:
         print("\nExtracted Aadhar Card Details:")
-        # print(f"Aadhar Number: {ocr.user_aadhar_no}")
         print(f"Gender: {ocr.user_gender}")
-        print(f"Date of Birth: {ocr.user_dob}")
         print(f"Name: {ocr.user_name}")
     else:
         print("Failed to extract data from the image.")
