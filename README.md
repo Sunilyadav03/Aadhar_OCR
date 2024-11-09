@@ -27,7 +27,7 @@ Python libraries: pytesseract, opencv-python, and any other image processing lib
 Installation
 
 ### Clone the repository:
-git clone https://github.com/your-username/Aadhar_OCR.git
+https://github.com/Sunilyadav03/Aadhar_OCR.git
 
 ### Install the required Python libraries:
 pip install -r requirements.txt
